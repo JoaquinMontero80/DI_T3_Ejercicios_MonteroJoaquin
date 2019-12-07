@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root prefHeight="36.0" prefWidth="354.0" type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="temporizador.TemporizadorController">
+  <children>
+      <HBox fx:id="panel" alignment="CENTER" prefHeight="36.0" prefWidth="400.0" spacing="10.0">
+         <children>
+            <Label fx:id="label1" text="Tiempo restante" />
+            <Label fx:id="Numero" prefHeight="17.0" prefWidth="41.0" textFill="RED" />
+            <Label fx:id="label2" text="segundos." />
+         </children>
+      </HBox>
+  </children>
+ </fx:root>
