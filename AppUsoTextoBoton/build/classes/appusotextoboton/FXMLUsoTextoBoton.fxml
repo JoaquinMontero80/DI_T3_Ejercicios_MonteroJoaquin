@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import CampoTextoNumero.CampoTextoNumerico?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="80.0" prefWidth="261.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusotextoboton.FXMLUsoTextoBotonController">
+   <children>
+      <Custom_controlController fx:id="nombre" prefHeight="25.0" prefWidth="220.0" text="Nombre" />
+      <Custom_controlController fx:id="apellidos" text="Apellidos" />
+      <Label fx:id="texto" alignment="BOTTOM_CENTER" text="Pulsa Boton...y muestra texto en esta etiqueta" />
+   </children>
+</VBox>

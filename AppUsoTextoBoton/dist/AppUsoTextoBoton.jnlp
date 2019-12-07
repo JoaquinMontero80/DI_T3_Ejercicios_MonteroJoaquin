@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppUsoTextoBoton.jnlp">
+  <information>
+    <title>AppUsoTextoBoton</title>
+    <vendor>joaquin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AppUsoTextoBoton.jar" size="5073" download="eager" />
+    <jar href="lib\3_MisControles.jar" size="22370" download="eager" />
+    <jar href="lib\Componentes_MonteroJoaquin.jar" size="21704" download="eager" />
+    <jar href="lib\Temporizador.jar" size="4684" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AppUsoTextoBoton" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="appusotextoboton.APPUsoTextoBoton"  name="AppUsoTextoBoton" />
+  <update check="always"/>
+</jnlp>
